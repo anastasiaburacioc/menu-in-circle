@@ -13,6 +13,7 @@ body{
     height: 6.5em;
     border-radius: 50%;
     border: 0.3em solid #727272;
+    transition: background 1s;
 }
 .menu-in-circle i{
     color: white;
@@ -46,7 +47,8 @@ body{
     left: 0.1em;
 }
 .menu-in-circle:hover{
-background: radial-gradient(#404040, #353535);
+    background: radial-gradient(#404040, #353535);
+     transition: background 1s;
 }
 .menu-in-circle>ul:hover>li:nth-of-type(1){
     background: linear-gradient(135deg, #454545 45%, #777);
