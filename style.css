@@ -1,0 +1,62 @@
+
+
+body{
+    background: radial-gradient(#121212, #1f1f1f) ;
+    background-size: 20px 20px;
+}
+.menu-in-circle{
+    position: fixed;
+    right: 35px;
+    bottom: 20px;
+    background-color: 	#353535;
+    width: 6.5em;
+    height: 6.5em;
+    border-radius: 50%;
+    border: 0.3em solid #727272;
+}
+.menu-in-circle i{
+    color: white;
+}
+.menu-in-circle li{
+    position: absolute;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+    height: 3em;
+    background-color: #454545;
+}
+.menu-in-circle li:nth-of-type(1){
+    border-radius: 100% 3px 3px 3px;
+    left: 0.1em;
+    top: 0.1em;
+}
+.menu-in-circle li:nth-of-type(2){
+    border-radius: 3px 100% 3px 3px;
+    top: 0.1em;
+    right: 0.1em;
+}
+.menu-in-circle li:nth-of-type(3){
+    border-radius: 3px  3px 100% 3px;
+    right: 0.1em;
+    bottom: 0.1em;
+}
+.menu-in-circle li:nth-of-type(4){
+    border-radius: 3px  3px 3px 100%;
+    bottom: 0.1em;
+    left: 0.1em;
+}
+.menu-in-circle:hover{
+background: radial-gradient(#404040, #353535);
+}
+.menu-in-circle>ul:hover>li:nth-of-type(1){
+    background: linear-gradient(135deg, #454545 45%, #777);
+}
+.menu-in-circle>ul:hover>li:nth-of-type(2){
+    background: linear-gradient(225deg, #454545 45%, #777);
+}
+.menu-in-circle>ul:hover>li:nth-of-type(3){
+    background: linear-gradient(305deg, #454545 45%, #777);
+}
+.menu-in-circle>ul:hover>li:nth-of-type(4){
+    background: linear-gradient(45deg, #454545 45%, #777);
+}
